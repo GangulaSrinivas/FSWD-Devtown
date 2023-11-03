@@ -1,0 +1,61 @@
+.parent{
+    height: 1150px;
+    background-color: red;
+    display: flex;
+    gap: 10px;
+    /*flex-direction:row,row-reverse,column,column-reverse*/
+    flex-direction: row;
+    /*justify-content:
+        >>row:flex-start,flex-end,center,space-around,space-between,space-evenly;*/
+    justify-content: flex-start;
+    /*align-items:
+        >>column:flex-start,flex-end,center,stretch;*/
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.child{
+    background-color: blue;
+    border: 10px solid black;
+    height:250px;
+   width: 250px;
+    
+}
+
+.child1{
+    background-color: blue;
+    border: 10px solid black;
+    height:250px;
+    width: 250px;
+}
+
+
+/*Animations in CSS*/
+
+button{
+    background-color: black;
+    color: blue;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*transition properties*/
+   /* transition-delay: 500ms;
+   transition-duration: 1000ms;
+
+    transition-property: all;*/
+    /*transition-timing-function:ease,linear,ease-in,ease-out,ease-in-out,cubic-bezier(1, 0, 0.77, 1.43)*/
+   /* transition-timing-function: ease-cubic-bezier(1, 0, 0.77, 1.43);*/
+
+    /*we can write in one line*/
+
+    transition:all ease-cubic-bezier(1, 0, 0.77, 1.43) 500ms 1000ms;
+}
+
+button:hover{
+    background-color: brown;
+    color: azure;
+    cursor: pointer;
+
+}

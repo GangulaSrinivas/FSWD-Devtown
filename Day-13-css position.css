@@ -1,0 +1,63 @@
+/*Position in CSS*/
+/*1.static*/
+
+.position{
+    position: static;
+    background-color: blue;
+    color: red;
+     top: 20px;
+    left: 40px;
+    border: 2px solid yellow;
+}
+
+/*2.Relative*/
+
+/*.position{
+    position:Relative;
+    background-color: blue;
+    color: red;
+    top: 20px;
+    left: 40px;
+    border: 2px solid yellow;
+}*/
+
+/*3.fixed*/
+
+/*.position{
+    position:fixed;
+    background-color: blue;
+    color: red;
+    top: 20px;
+    left: 40px;
+    border: 2px solid yellow;
+}*/
+
+/*4.absolute*/
+
+/*#css{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 2px dashed red;
+}
+
+.position{
+    position:absolute;
+    background-color: blue;
+    color: red;
+    top: 0;
+    left: 0;
+    border: 2px solid yellow;
+}*/
+
+/*5.sticky*/
+
+/*.position{
+    position:sticky;
+    background-color: blue;
+    color: red;
+    top: 20px;
+    left: 40px;
+    border: 2px solid yellow;
+}*/
+

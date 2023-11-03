@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-6,7-Tables and Input tags</title>
+        <style>
+            table,th,td,tr{
+                border: 5px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Forms</h3>
+        <h5>Instagram login page</h5>
+        <label>UserName:</label>
+        <input type="text" placeholder="plz enter ur username" required />
+        <br />
+        <br/>
+        <label>Password:&nbsp;&nbsp;</label>
+        <input type="password" placeholder="plz enter pwd" required />
+        <br/>
+        <br/>
+        <label>Gender: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <!--<input type="text" placeholder="plz enter gender" required />-->
+        <input type="radio" name="gender" /><label>Male</label>
+        <input type="radio" name="gender"/><label>Female</label>
+        <input type="radio" name="gender"/><label>Prefer not to say</label>
+        <br/>
+        <br/>
+        <hr/>
+
+
+
+
+
+
+
+        <!--Tables-->
+        <center>
+            <table>
+                <tr>
+                    <th>Company Name </th>
+                    <th>Mail Id</th>
+                    <th>Phone number</th>
+                    <th>About us</th>
+                </tr>
+                <tr>
+                    <td colspan="2">WIPRO</td>
+                   <!-- <td>abc@gmail.com</td>-->
+                    <td>1234567891</td>              
+                    <td>wipro ltd</td>  
+                </tr>
+                <tr>
+                    <td rowspan="2">NASA</td>
+                    <td>nasa@gmail.com</td>
+                    <td>98765432190</td>
+                    <td>nasa ltd</td>
+                </tr>
+                <tr>
+                   <!--<td>Devtown</td>--> 
+                    <td>dev@gmail.com</td>
+                    <td>4321567890</td>
+                    <td>devtown ltd</td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

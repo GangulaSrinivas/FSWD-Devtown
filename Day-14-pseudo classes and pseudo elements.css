@@ -1,0 +1,124 @@
+/*Pseudo classes*/
+
+/*1.hover*/
+button:hover{
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+}
+
+/*2.active*/
+
+button:active{
+    border: 10px solid red;
+}
+
+/*3.Focus*/
+
+button:focus{
+    background-color:blue;
+    color: bisque;
+}
+
+/*for anchor tag*/
+/*anchor visited link state*/
+
+a:link{
+    background-color: brown;
+    color: black;
+}
+
+a:visited{
+    background-color: blue;
+    color: aqua;
+}
+
+span{
+    padding: 6px;
+    margin: 6px;
+}
+
+/*first child*/
+
+span:first-child{
+    background-color: chocolate;
+    color: blue;
+}
+
+/*last child*/
+ span:last-child{
+    background-color: brown;
+    color: blanchedalmond;
+ }
+
+ /*nth child(eg.. for 4th child)*/
+
+ span:nth-child(4){
+    background-color: chocolate;
+    color: blueviolet;
+ }
+
+ span:nth-child(even){
+    background-color: chocolate;
+    color: blueviolet;
+ }
+
+ span:nth-child(odd){
+    background-color: brown;
+    color: blanchedalmond;
+ }
+
+ /*Pseudo elements*/
+
+/*"Pseudo elements::before"*/
+ h1::before{
+    content: "Hello ";
+
+ }
+
+ /*"Pseudo elements::after"*/
+
+ h1::after{
+    content: " g'morning";
+ }
+ 
+ /*for shapes*/
+
+ .shape{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 100%;
+    position: relative;
+    
+ }
+
+ .shape::before{
+    content: " ";
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 50%;
+     }
+
+     .shape::after{
+        content: " ";
+        background-color: blue;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom:0;
+        right:0;
+        border-radius: 50%;
+         }
+
+
+         /*Flex box
+            >>animations
+         >>git session
+         >>static project(HTML,CSS)
+         >....*/

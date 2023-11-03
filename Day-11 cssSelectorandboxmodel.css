@@ -1,0 +1,93 @@
+
+
+/*1.Element selector*/
+/*h2{
+    background-color: black;
+    color: red;
+}
+p{
+    background-color:yellow ;
+    color: black;
+}*/
+
+
+/*2.Element selector list*/
+/*h2,p{
+    background-color: black;
+    color: white;
+}*/
+
+
+/*3.Universal selector*/
+/**{
+    background-color: red;
+    color: black;
+    border: 2px solid white;
+}*/
+
+
+/*4.Id Selector*/
+/*#lorem2{
+    background-color: black;
+    color: red;
+}*/
+
+
+/*5.Class Selector*/
+/*.class3{
+    background-color: red;
+    color: black;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+}*/
+
+
+/*6.Descendent Selector*/
+/*li a{
+    background-color: black;
+    color: aqua;
+
+}*/
+/*b i{
+    background-color: black;
+    color: brown;
+}*/
+
+
+/*7.Direct child selector*/
+/*u > i{
+    background-color: red;
+    color: white;
+}*/
+
+
+
+/*for checkig precedence*/
+
+/*h5{
+    background-color: blue;
+    color: chartreuse;
+}*/
+
+
+
+/*for box model*/
+p{
+    border: 2px solid red;
+    background-color: black;
+    color: blue;
+   /* padding: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;*/
+    padding: 20px 100px 40px 100px;
+   /*margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 80px;*/
+    margin: 80px 70px 60px 50px;
+}
